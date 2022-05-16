@@ -1,0 +1,75 @@
+div, ul, li, html, body {
+  margin: 0;
+  padding: 0;
+}
+
+/*@media screen and (min-width: 1200px) {*/
+/*  ul{width: 1200px;margin: 0 auto;}*/
+/*}*/
+/*@media screen and (min-width:300px) and (max-width: 1200px)  {*/
+/*  ul{width: 100%}*/
+/*}*/
+/*@media screen and (max-width: 300px) {*/
+/*  ul{display: none}*/
+/*}*/
+html, body {
+  background: rgb(241,243,247);
+}
+.topImg {
+  width: 100%;
+  height: 500px;
+}
+h1{
+  color: rgb(74,130,229);
+
+}
+
+.content {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.content > .contentTop {
+  color: #222;
+  margin: 30px auto 0;
+  width: 1200px;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.contentTop > li {
+  float: left;
+  display: inline-block;
+  width: 290px;
+  height: 150px;
+  margin-top: 40px;
+  margin-right: 10px;
+  background: #ffffff;
+  text-align: center;
+}
+
+.contentTop > li:hover {
+  color: #007aff;
+  transform: scale(1.08);
+  transition: all 0.8s;
+}
+#goBack {
+  width: 78px;
+  height: 78px;
+  position: fixed;
+  bottom: 100px;
+  right: 0;
+}
+
+/*#footer {*/
+/*  width: 100%;*/
+/*  height: 80px;*/
+/*position: absolute;*/
+/*  bottom: 0;*/
+/*  text-align: center;*/
+/*  line-height: 80px;*/
+/*  color: #ebebeb;*/
+/*  background: #042a73;*/
+/*}*/

@@ -1,0 +1,334 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/*开始背景图*/
+#back {
+    margin: 0 auto;
+    width: 100%;
+    height: 480px;
+    background-image: url("../img/a.jpg");
+    cursor: default;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: block;
+    outline: none;
+    background-size: cover;
+}
+
+/*公司简介*/
+#aboutWord {
+    margin: 50px auto 20px;
+    width: 300px;
+    height: 80px;
+    font-size: 35px;
+    color: #2B2B2B;
+    text-align: center;
+    /*background: chartreuse;*/
+}
+
+#about {
+    width: 100%;
+    height: 580px;
+    margin: 0 auto;
+    position: relative;
+    background-image: url("http://11056517.s61i.faiusr.com/2/AD0IheuiBRACGAAg97DuwgUo9NDg9gQwgA84jwQ.jpg");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#about #WordsBox {
+    margin: 0 auto;
+    width: 430px;
+    height: 300px;
+    position: relative;
+    left: -350px;
+    top: 100px;
+}
+
+#about #photo {
+    margin: 0 auto;
+    width: 530px;
+    height: 530px;
+    background-image: url("https://www.vanhigroup.com/index/image/company-info.png");
+    background-repeat: no-repeat;
+    position: relative;
+    top: -300px;
+    left: 280px;
+}
+
+/*优秀员工*/
+#outstanding {
+    margin: 40px auto;
+    width: 300px;
+    height: 80px;
+    font-size: 35px;
+    color: #2B2B2B;
+    text-align: center;
+    line-height: 80px;
+    /*background: #2B2B2B;*/
+}
+
+
+#staff {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+#staff .AA {
+    position: absolute;
+    top: 1px;
+
+}
+
+#staff .Staffwords{
+    margin: -200px 0 0 0;
+}
+hr{
+    margin: -59px 0 0 0;
+    border: 0.5px dashed #e0dede;
+}
+
+/*管理*/
+#manage {
+    margin: 60px auto;
+    position: relative;
+    width: 100%;
+    height: 580px;
+    text-align: center;
+    /*background: blue;*/
+}
+
+#manageWords {
+    margin: 40px auto;
+    width: 300px;
+    height: 80px;
+    font-size: 35px;
+    color: #2B2B2B;
+    text-align: center;
+    line-height: 80px;
+}
+
+
+#managePhoto {
+    margin: 30px auto;
+    width: 1130px;
+    height: 320px;
+    /*text-align: center;*/
+    display: flex;
+    justify-content: space-between;
+}
+
+#FigureOne {
+    width: 233px;
+    height: 417px;
+    /*background: #f1eded;*/
+    text-align: center;
+    position: relative;
+}
+#FigureOne p{
+    position: absolute;
+    bottom: 51px;
+}
+#FigureOne img {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 10px;
+    left: 16px;
+}
+
+#FigureOne span {
+    position: absolute;
+    top: 220px;
+    left: 58px;
+    font-size: 20px;
+
+}
+
+
+#FigureTwo {
+    width: 233px;
+    height: 417px;
+    /*background: #f1eded;*/
+    text-align: center;
+    position: relative;
+
+
+}
+#FigureTwo p{
+    position: absolute;
+    bottom: 91px;
+}
+#FigureTwo img {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 10px;
+    left: 16px;
+
+}
+
+#FigureTwo span {
+    position: absolute;
+    top: 220px;
+    left: 10px;
+    font-size: 20px;
+
+
+}
+
+#FigureThree {
+    width: 233px;
+    height: 417px;
+    /*background: #f1eded;*/
+    text-align: center;
+    position: relative;
+
+}
+#FigureThree p{
+    position: absolute;
+    bottom: 15px;
+}
+#FigureThree img {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 10px;
+    left: 16px;
+}
+
+#FigureThree span {
+    position: absolute;
+    top: 220px;
+    left: 78px;
+    font-size: 20px;
+
+}
+
+#FigureFour {
+    width: 233px;
+    height: 417px;
+    /*background: #f1eded;*/
+    text-align: center;
+    position: relative;
+}
+#FigureFour p{
+    position: absolute;
+    bottom: 51px;
+}
+#FigureFour img {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 10px;
+    left: 16px;
+}
+
+#FigureFour span {
+    position: absolute;
+    top: 220px;
+    left: 90px;
+    font-size: 20px;
+
+}
+
+#cooperationsWords {
+    margin: 40px auto;
+    width: 300px;
+    height: 80px;
+    font-size: 35px;
+    color: #2B2B2B;
+    text-align: center;
+    line-height: 80px;
+    /*background: #2B2B2B;*/
+}
+
+#cooperations{
+    margin: 0 auto;
+    width: 1200px;
+    height: 200px;
+    /*background:red;*/
+    overflow: hidden;
+}
+@keyframes cooperation{
+    0%{left: 0}
+    100%{left:-7030px}
+}
+#cooperation{
+    margin: 0 auto;
+    position: relative;
+    /*top: 30px;*/
+    width: 99999px;
+    height: 200px;
+    /*background: chartreuse;*/
+    animation: cooperation 60s linear infinite
+}
+#cooperation>img{
+    margin: 15px 15px 0px 15px;
+}
+#cooperation:hover{
+    animation-play-state: paused;
+}
+
+
+
+
+
+
+#purpose {
+    margin: 50px auto;
+    width: 100%;
+    height: 220px;
+    position: relative;
+    background-image: url("https://img.alicdn.com/tfs/TB1Hcj9GBr0gK0jSZFnXXbRRXXa-3360-1060.png");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#purpose > #purposes {
+    margin: 0 auto;
+    width: 100%;
+    height: 140px;
+    text-align: center;
+}
+
+#purpose > #purposes > p {
+    color: #ffffff;
+    font-size: 26px;
+}
+
+#purpose > #purposes > a {
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+#goBack {
+    width: 78px;
+    height: 78px;
+    position: fixed;
+    bottom: 100px;
+    right: 0;
+}
+
+#footer {
+    width: 100%;
+    height: 80px;
+    margin-top: 150px;
+    text-align: center;
+    line-height: 80px;
+    color: #ebebeb;
+    background: #042a73;
+}

@@ -1,0 +1,256 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#back{
+    margin: 0 auto;
+    width: 100%;
+    height: 380px;
+    background-image: url("https://14559978.s61i.faiusr.com/2/AD0I6tX4BhACGAAgg4eJ2gUo3bTf8QUwgA84xQM.jpg");
+    cursor: default;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: block;
+    outline: none;
+    background-size: cover;
+}
+
+
+#business {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    height: 300px;
+    background: #efeded;
+    display: flex;
+    justify-content: space-evenly;
+    min-width: 1200px;
+}
+
+#business #BoxOne {
+    margin: 55px 0 0 0;
+    width: 300px;
+    height: 190px;
+    /*background: #53d060;*/
+    position: relative;
+    text-align: center;
+    line-height: 220px;
+}
+
+#business #BoxOne img {
+    position: absolute;
+    left: 125px;
+}
+
+#business p {
+    margin: 0;
+
+}
+
+#business span {
+    position: absolute;
+    top: 30px;
+    left: 63px;
+}
+
+#business #BoxTwo {
+    margin: 55px 0 0 0;
+    width: 300px;
+    height: 190px;
+    /*background: #c49e2b;*/
+    position: relative;
+    text-align: center;
+    line-height: 220px;
+
+}
+
+#business #BoxTwo img {
+    position: absolute;
+    left: 125px;
+}
+
+#business #BoxThree {
+    margin: 55px 0 0 0;
+    width: 300px;
+    height: 190px;
+    /*background: #892453;*/
+    position: relative;
+    text-align: center;
+    line-height: 220px;
+
+}
+
+#business #BoxThree img {
+    position: absolute;
+    left: 125px;
+}
+
+#business #BoxFour {
+    margin: 55px 0 0 0;
+    width: 300px;
+    height: 190px;
+    /*background: #242420;*/
+    position: relative;
+    text-align: center;
+    line-height: 220px;
+
+}
+
+#business #BoxFour img {
+    position: absolute;
+    left: 125px;
+}
+
+
+#importantly {
+    position: relative;
+    margin: 100px auto 0;
+    width: 1200px;
+    height: 420px;
+    /*background: cornflowerblue;*/
+}
+
+#importantlyPhoto {
+    width: 700px;
+    height: 420px;
+    /*background: red;*/
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+#importantlyPhoto span{
+    font-size: 14px;
+    line-height: 25px;
+    color: #949494;
+}
+#importantlyPhoto p{
+    color: #949494;
+}
+#importantlyPhoto #PhotoOne {
+    margin-left: 7px;
+    width: 210px;
+    height: 420px;
+    /*background: aqua;*/
+}
+
+#importantlyPhoto #PhotoTwo {
+    width: 210px;
+    height: 420px;
+    /*background: aqua;*/
+}
+
+#importantlyPhoto #PhotoThree {
+    width: 210px;
+    height: 420px;
+
+}
+#importantlySwiper{
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    width:475px ;
+    height: 418px;
+
+}
+
+
+#serve{
+    position: relative;
+    margin: 140px auto 0;
+    width: 1200px;
+    height: 400px;
+    /*background: #3c4865;*/
+}
+#serve form{
+    display: flex;
+    justify-content: space-evenly;
+}
+#serve p{
+    margin: 0 0 0 20px;
+    color: #2B2B2B;
+}
+#serve #InputOne{
+    margin: 25px 0 0 -40px;
+    width: 350px;
+    height: 32px;
+    background: #f1eded;
+    border: 0;
+}
+#serve #InputTwo{
+    margin: 25px 0 0 -50px;
+    width: 350px;
+    height: 32px;
+    /*background: #c6c4c4;*/
+    background: #f1eded;
+    border: 0;
+
+}
+#serve #Three{
+    margin: 25px 0 0 -40px;
+    width: 350px;
+    height: 32px;
+    background: #f1eded;
+    border: 0;
+
+}
+#serve form span{
+    color: red;
+}
+#serve #FFFFF #F{
+    position: absolute;
+    left: 6.5px;
+    top: 100px;
+}
+#serve #FFFFF #FF{
+    position: absolute;
+    top: 95px;
+    left: 63px;
+    color: red;
+}
+#serve #FFFFF #FFF{
+    position: absolute;
+    top: 124px;
+    left: 40px;
+    width: 1149px;
+    height: 90px;
+    background: #f1eded;
+    border: 0;
+}
+#serve button{
+    position: absolute;
+    left: 40px;
+    top: 250px;
+    width: 200px;
+    height: 50px;
+    background: #f65050;
+    border: 0;
+}
+#we{
+    margin: 10px auto 20px;
+    width: 300px;
+    height: 80px;
+    font-size: 35px;
+    color: #2B2B2B;
+    text-align: center;
+}
+
+#mapPhoto #dituContent{
+    margin:0 0 0 250px ;
+}
+#lianxi{
+  position: absolute;
+    top: 1900px;
+   right : 250px;
+
+}
+
+#goBack {
+    width: 78px;
+    height: 78px;
+    position: fixed;
+    bottom: 100px;
+    right: 0;
+}
+
